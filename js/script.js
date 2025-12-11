@@ -28,10 +28,6 @@ document.getElementById("form-biglietto").addEventListener("submit", function (e
         offerta = "Sconto Over 65 (-40%)";
     } 
 
-    // prezzo finale
-
-    // const prezzoFinale = costoBiglietto.toFixed(2);
-
 
     // carrozza random
 
