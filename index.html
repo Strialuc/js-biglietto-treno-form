@@ -18,24 +18,32 @@
 
     <div class="container bg-light mt-5">
         <form class="row g-3">
-            <div class="col text-center">
+            <div class="col-4 text-center">
                 <label for="nome" class="form-label">Nome</label>
                 <input type="Nome" class="form-control" id="Nome">
             </div>
-            <div class="col text-center">
+            <div class="col-4 text-center">
                 <label for="km" class="form-label">Km da percorrere</label>
                 <input type="km" class="form-control" id="km">
             </div>
-            <div class="col text-center">
+            <div class="col-4 text-center">
                 <label for="fascia d'età" class="form-label">Fascia d'età</label>
-            <select class="form-select" aria-label="Default select example">
-                <option selected>Fascia d'età</option>
-                <option value="1">Minorenne</option>
-                <option value="2">Maggiorenne</option>
-                <option value="3">Over 65</option>
-            </select>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Fascia d'età</option>
+                    <option value="1">Minorenne</option>
+                    <option value="2">Maggiorenne</option>
+                    <option value="3">Over 65</option>
+                </select>
             </div>
-
+            <div class="d-flex justify-content-center mt-5 mb-5 gap-3">
+                <div>
+                <button type="submit" class="btn btn-secondary">Genera</button>
+                </div>
+                <div>
+                <button type="reset" class="btn btn-secondary">Annulla</button>
+                </div>
+            </div>
+          
     </div>
 
 
